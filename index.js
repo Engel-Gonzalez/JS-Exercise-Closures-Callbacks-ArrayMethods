@@ -101,7 +101,6 @@ console.log (finalScore(inning, 9))
 Create a function called `scoreboard` that accepts the following parameters: 
 
 (1) Callback function `getInningScore`
-(2) Callback function `inning`
 (2) A number of innings
 
 and returns the score at each pont in the game, like so:
@@ -142,7 +141,7 @@ function scoreboard(cb, innNum) {
     }
   console.log (scorearray);
   
-  console.log (`Final Score : ${score["Away"]} - ${score['Home']} `)
+  console.log (`Final Score : ${score["Home"]} - ${score['Away']} `)
   
 }
 log = (scoreboard (inning, 9));
